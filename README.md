@@ -31,4 +31,4 @@ To render content with if statement we do it like this in the DOM.
   div> : null
  } 
  
- Make let the state handle the boolean for if we show content or not. 
+ Make the state handle the boolean for if we show content or not. 
