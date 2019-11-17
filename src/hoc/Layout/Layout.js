@@ -4,6 +4,7 @@ import Aux from '../Aux/Aux'
 import SideDrawer from '../../components/Navigation/SideDrawer/SideDrawer'
 
 import Toolbar from '../../components/Navigation/Toolbar/Toolbar'
+import Employees from '../../containers/Employees/Employees';
 
 class Layout extends Component {
 
@@ -33,6 +34,9 @@ class Layout extends Component {
                 <main className={classes.Content}>
                     {this.props.children}
                 </main>
+
+                <h2>Employees:</h2>
+                <Employees></Employees>
             </Aux>
         )
     }
