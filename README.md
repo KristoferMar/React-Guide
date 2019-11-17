@@ -24,6 +24,10 @@ Syling can be setup in multiple ways.
 <h2> React Logic </h2>
 
 <h4>If statement to render content </h4>
+
+<h5> Can be found here </h5>
+src --> containers --> Employees --> Employees.js
+
 To render content with if statement we do it like this in the DOM.
 { this.state.showContent === true ? 
   <div
@@ -35,3 +39,7 @@ To render content with if statement we do it like this in the DOM.
  
  <h3> OR </h3>
  We can also create our own variable + if statement in the general render() {} method and then check the state with if statement and then use the variable to display our content. 
+ 
+ <h4>Display iteration of array</h4>
+ <h5>Can be found here </h5>
+ src --> containers --> Employees --> Employees.js
