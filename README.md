@@ -24,9 +24,11 @@ Syling can be setup in multiple ways.
 <h2> React Logic </h2>
 
 <h4>If statement to render content </h4>
-To render content with if statement we do it like this in the DOM with out the ' sign 
+To render content with if statement we do it like this in the DOM.
 { this.state.showContent === true ? 
-  <div'>
-    <p'> im visible </p'>
-  </div'> : null
+  <div
+    <p im visible </p
+  div> : null
  } 
+ 
+ Make let the state handle the boolean for if we show content or not. 
