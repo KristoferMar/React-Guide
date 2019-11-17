@@ -20,3 +20,13 @@ Syling can be setup in multiple ways.
 
 1. Run the following command: "npm run eject" 
 2. ...
+
+<h2> React Logic </h2>
+
+<h4>If statement to render content </h4>
+To render content with if statement we do it like this in the DOM with out the ' sign 
+{ this.state.showContent === true ? 
+  <div'>
+    <p'> im visible </p'>
+  </div'> : null
+ } 
