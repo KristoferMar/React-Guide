@@ -32,3 +32,6 @@ To render content with if statement we do it like this in the DOM.
  } 
  
  Make the state handle the boolean for if we show content or not. 
+ 
+ <h3> OR </h3>
+ We can also create our own variable + if statement in the general render() {} method and then check the state with if statement and then use the variable to display our content. 
