@@ -43,3 +43,6 @@ To render content with if statement we do it like this in the DOM.
  <h4>Display iteration of array (foreach loop in JSX)</h4>
  <h5>Can be found here </h5>
  src --> containers --> Employees --> Employees.js
+
+<h2> React info </h2>
+super(props) refers to the parent class constructur which means that we are able to make use of the parant class states in our components.
