@@ -19,6 +19,15 @@ React-Guide --> Src --> hoc --> withErrorHandler
 <h4>props.children</h4>
 We use props.children on components that represent 'generic boxes' and that 'don't know their children ahead of time'. It is used to display whatever you include between the opening and closing tags when <b>invoking</b> a component. The power of props.children is that it can be anything! 
 
+<h4>React routing</h4>
+Install: 
+"npm install --save react-router-dom"
+
+React-Guide --> src -> index.js   : This is the BrowserRouter which controls the everything that includes routing.
+React-Guide --> src -> app.js     : This is the Switch that controles the different routes
+React-Guide --> src --> components --> Navigation --> NaviationItems --> NavigationItem -> NavigationItem.js    : Example where we make use of NavLink for routing.
+
+
 
 <h2> React Logic </h2>
 
