@@ -10,7 +10,7 @@ Auxiliary element is something that does not have semantic purpose but exist for
 <h4>Button</h4>
 This project includes a generic reusable button component with different inputs to color change and more.
 
-<h4>GET, POST, DELETE requests using axios</h4>
+<h4>REST API - GET, POST, DELETE requests using axios</h4>
 React-Guide --> src --> containers --> BurgerBuilder
 
 <h4>Errorhandler modal</h4>
