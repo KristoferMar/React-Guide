@@ -59,6 +59,13 @@ To render content with if statement we do it like this in the DOM.
 - super(props) refers to the parent class constructur which means that we are able to make use of the parant class states in our components.
 
 
+<h2>Implementation of REDUX</h2>
+We install redux into our project with 
+"npm install --save redux react-redux"
+
+The store:
+React-Guide --> src --> store
+
 <h2>How to setup Styling</h2>
 
 Syling can be setup in multiple ways.
