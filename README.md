@@ -66,6 +66,13 @@ We install redux into our project with
 The store:
 React-Guide --> src --> store
 
+We make redux usable for the redux extension by adding the vollowing variable in the creatioStore() method:
+<br>
+"&& window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()"
+<br>
+more info can be found here
+https://github.com/zalmoxisus/redux-devtools-extension
+
 <h2>How to setup Styling</h2>
 
 Syling can be setup in multiple ways.
