@@ -13,6 +13,9 @@ This project includes a generic reusable button component with different inputs 
 <h4>REST API - GET, POST, DELETE requests using axios</h4>
 React-Guide --> src --> containers --> BurgerBuilder
 
+<h4>Creation of Forms with validation and more </h4>
+React-Guide --> src --> containers --> Checkout
+
 <h4>Errorhandler modal</h4>
 React-Guide --> Src --> hoc --> withErrorHandler
 
