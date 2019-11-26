@@ -63,6 +63,9 @@ To render content with if statement we do it like this in the DOM.
 We install redux into our project with 
 "npm install --save redux react-redux"
 
+We install redux thunk in the following way to be able to make use of middleware.
+"npm install --save redux-thunk"
+
 The store:
 React-Guide --> src --> store
 
