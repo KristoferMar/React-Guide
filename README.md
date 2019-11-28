@@ -82,3 +82,34 @@ Syling can be setup in multiple ways.
 
 1. Run the following command: "npm run eject" 
 2. ...
+
+
+
+<h2>How to setup test for React apps</h2>
+First install 
+
+"npm install --save enzyme react-test-renderer enzyme-adapter-react-16"
+
+Example on test can be found with the following path: 
+<b>src --> components --> Navigation --> NavigationItems --> NavigationItems.test.js</b>
+
+<b>functions</b>
+"describe":    Allows us to idetify what kind if test we are running.
+"it":          describes and allows us to run one individual test. 
+"expect":      is used to test values.
+"beforeEach":  Executes some code before all testcases.
+"afterEach":   Executes some code after all testcases.
+
+<b>Documentation</b>
+jest: https://jestjs.io/docs/en/getting-started
+
+shallow/enzyme: https://airbnb.io/enzyme/docs/api/
+
+
+
+<h2>Deployment Steps</h2>
+
+1. Check (& adjust) basepath to fx '<'BrowserRouter basename ="/map-app/"> 
+2. build & Optimize Project : "npm run build in create-react-app project
+3. Server must ALWAYS serve index.html (also for 404 cases). : (to ensure that Routing works correctly) 
+4. Upload Build Artifacts to (static) Server. : In /build folder when using create-react-app
