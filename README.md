@@ -76,6 +76,12 @@ We make redux usable for the redux extension by adding the vollowing variable in
 more info can be found here
 https://github.com/zalmoxisus/redux-devtools-extension
 
+<h3>Redux Saga</h3>
+Redux saga helps us run side effect actions in our "redux actions"
+Install with: 
+"npm install --save redux-saga
+
+
 <h2>How to setup Styling</h2>
 
 Syling can be setup in multiple ways.
@@ -83,6 +89,17 @@ Syling can be setup in multiple ways.
 1. Run the following command: "npm run eject" 
 2. ...
 
+
+
+<h2>React animations</h2>
+
+Animations are done in the CSS files. It's not necessarily "react" animations but general CSS class animations & Transitions.
+
+We can do animations with
+- Transition
+- transform: translateY(0)
+- animation (using @keyframes)
+- @keyframes 
 
 
 <h2>How to setup test for React apps</h2>
