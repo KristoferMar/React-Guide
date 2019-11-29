@@ -57,8 +57,11 @@ To render content with if statement we do it like this in the DOM.
  <h5>Can be found here </h5>
  src --> containers --> Employees --> Employees.js
 
+
+
 <h2> React info </h2>
 - super(props) refers to the parent class constructur which means that we are able to make use of the parant class states in our components.
+
 
 
 <h2>Implementation of REDUX</h2>
@@ -91,6 +94,7 @@ Description:
 - Side effects are made into SAGA's. It leads to leaner action creators. Side effects are stuff like HTTP requests and so on.
 
 
+
 <h2>How to setup Styling</h2>
 
 Syling can be setup in multiple ways.
@@ -99,6 +103,12 @@ Syling can be setup in multiple ways.
 2. ...
 
 - You are able to create dynamic styling by adding styles to a javascript constant and add eg 'red' to an array which is loaded into HTML elements. (section 5 nr. 67 - Udemy)
+
+Downloads: radium 
+"npm install --save radium"
+
+radium is an CSS package for react which allows us to use inline styles with sudo selectors and media styles. 
+- We use radium to create dynamic CSS for react app which can be executed in combination with some logic.
 
 
 
@@ -111,6 +121,7 @@ We can do animations with
 - transform: translateY(0)
 - animation (using @keyframes)
 - @keyframes 
+
 
 
 <h2>How to setup test for React apps</h2>
@@ -141,3 +152,9 @@ shallow/enzyme: https://airbnb.io/enzyme/docs/api/
 2. build & Optimize Project : "npm run build in create-react-app project
 3. Server must ALWAYS serve index.html (also for 404 cases). : (to ensure that Routing works correctly) 
 4. Upload Build Artifacts to (static) Server. : In /build folder when using create-react-app
+
+
+
+<h2>General notes</h2>
+
+- If you need anything which is not in this project we can use "https://madewithreact.com/" to find applications with free access to the github code where you can find usable components. 
