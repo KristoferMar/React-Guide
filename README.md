@@ -5,6 +5,8 @@ This project includes some ot he following implementations
 <h4>AUX (Auxiliary) Component</h4>
 Auxiliary element is something that does not have semantic purpose but exist for the purpose of grouping elements, styling, etc. We make use of the AUX component to combine multiple components in one. 
 
+this can also be done with "React.Fragment" which essensially does the same.
+
 <h2>Generic Reusable Components / Inspiration</h2>
 
 <h4>Button</h4>
@@ -81,6 +83,13 @@ Redux saga helps us run side effect actions in our "redux actions"
 Install with: 
 "npm install --save redux-saga
 
+The sagas can be found here
+
+src --> store --> sagas
+
+Description:
+- Side effects are made into SAGA's. It leads to leaner action creators. Side effects are stuff like HTTP requests and so on.
+
 
 <h2>How to setup Styling</h2>
 
@@ -88,6 +97,8 @@ Syling can be setup in multiple ways.
 
 1. Run the following command: "npm run eject" 
 2. ...
+
+- You are able to create dynamic styling by adding styles to a javascript constant and add eg 'red' to an array which is loaded into HTML elements. (section 5 nr. 67 - Udemy)
 
 
 

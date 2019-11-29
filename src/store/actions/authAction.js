@@ -22,26 +22,38 @@ export const authFail = (error) => {
     };
 };
 
+//The code below is commented out becuase we make use of a saga to 
 export const logout = () => {
-    localStorage.removeItem('token')
-    localStorage.removeItem('expirationTime')
-    localStorage.removeItem('userId')
+    //localStorage.removeItem('token')
+    //localStorage.removeItem('expirationTime')
+    //localStorage.removeItem('userId')
+    return {
+        type: actionTypes.AUTH_INITIATE_LOGOUT
+    }
+}
 
+export const logoutSucceed = () => {
     return {
         type: actionTypes.AUTH_LOGOUT
     }
 }
 
-//Middleware
+//Middleware - Could be made to an SAGA and actually already is.
 export const checkAuthTimeout = (expirationTime) => {
     return dispatch => {
         setTimeout(() => {
             dispatch(logout());
         }, expirationTime * 1000);
     }
+
+    //This would be the return statement for my saga
+    /*     return {
+            type:actionTypes.AUTH_CHECK_TIMEOUT,
+            expirationTime: expirationTime
+        } */
 }
 
-//Middleware
+//Middleware - Could be made to an SAGA
 export const auth = (email, password, isSignup) => {
     return dispatch => {
         dispatch(authStart());
